@@ -1,0 +1,63 @@
+body {
+  background-image: url("https://cdn.wedevs.com/uploads/2021/04/Best-project-management-software-for-web-designers.png  ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  background-color: rgba(204, 229, 255, 0.2);
+  border: 2px solid rgb(135, 206, 235, 1);
+  position: relative;
+  bottom: 18px;
+  right: 10px;
+  width: 1550px;
+  border-bottom-left-radius: 800px;
+  border-bottom-right-radius: 800px;
+}
+nav ul li {
+  height: 30px;
+  width: 150px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 75px;
+  padding-top: 10px;
+  margin: 15px 70px;
+  background-color: rgba(135, 206, 235, 1);
+  border: 3px solid black;
+}
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+nav ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(182, 24, 24);
+  display: block;
+  margin: auto;
+  transition: 0.4s;
+}
+nav ul li:hover::after {
+  width: 65%;
+}
+
+#proj {
+  color: black !important;
+  font-weight: bold !important;
+}
+.main{
+  color: blue;
+}
+.a{
+  color: rgb(209, 209, 209);
+}
+.b{
+  color:rgb(175, 11, 11)
+}

@@ -1,0 +1,63 @@
+body {
+  background-image: url("..//media/Hoc_col.JPEG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+nav {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  background-color: rgba(178, 102, 255, 0);
+  border: 2px solid rgba(146, 146, 146, 1);
+  position: relative;
+  bottom: 18px;
+  right: 10px;
+  width: 1550px;
+  border-bottom-left-radius: 800px;
+  border-bottom-right-radius: 800px;
+}
+nav ul li {
+  height: 30px;
+  width: 150px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 75px;
+  padding-top: 10px;
+  margin: 15px 70px;
+  background-color: rgba(146, 146, 146, 0.5);
+  border: 3px solid rgba(146, 146, 146, 1);
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+nav ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: black;
+  display: block;
+  margin: auto;
+  transition: 0.4s;
+}
+nav ul li:hover::after {
+  width: 65%;
+}
+
+main {
+  color: white;
+  text-align: center;
+  background-color: rgba(146, 146, 146, 0.7);
+  position: relative;
+  font-weight: 520;
+  font-size: larger;
+  width: 1500px;
+  margin: 210px auto;
+  padding: 0.5px 0;
+}
